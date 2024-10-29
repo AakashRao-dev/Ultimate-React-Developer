@@ -1,0 +1,45 @@
+body {
+  font-family: system-ui;
+  background-color: #040811;
+  color: #ffffff;
+  display: grid;
+  place-content: center;
+  min-height: 100vh;
+}
+
+.card-container {
+  background: linear-gradient(to top left, #0c1118, #2b2f37);
+  padding: 5px;
+  border-radius: 15px;
+  display: inline-block;
+}
+
+.card {
+  max-width: 400px;
+  -webkit-backdrop-filter: blur(2px);
+  backdrop-filter: blur(2px);
+  background-image: linear-gradient(#13171f, #0e121a 48%, #050912);
+  border-radius: 15px;
+  padding: 1rem 2rem;
+  position: relative;
+  z-index: 1;
+}
+
+h1 {
+  font-size: clamp(1.5rem, 3.5vw + 1rem, 5.2rem);
+}
+
+.button {
+  cursor: pointer;
+  font-family: inherit;
+  font-weight: 400;
+  font-size: 1rem;
+  padding: 0.75em 1.25em;
+  border: 0;
+  border-radius: 10px;
+  -webkit-backdrop-filter: blur(20px);
+  backdrop-filter: blur(20px);
+  color: inherit;
+  background-color: #10141c;
+  background-image: linear-gradient(45deg, #ffffff1a, #fff0);
+}
